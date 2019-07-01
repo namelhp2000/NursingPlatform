@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{9C698FFB-DADA-49EA-BBCA-DC3E908A788C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{44E033F7-EB93-463F-B37F-7C208E3CCE76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{A6FDC149-DC43-42F6-9127-AE3E026DECEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NursingPlatformCore", "NursingPlatformCore", "{1C38B20C-0093-484A-A1DC-D87CE3C71F9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NursingPlatform.Business", "NursingPlatform.Business\NursingPlatform.Business.csproj", "{61B4B777-F05C-4079-9B78-33F50A727A9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NursingPlatform.Data", "NursingPlatform.Data\NursingPlatform.Data.csproj", "{511CEBC5-A1A9-4520-917C-BEA93CA2B71C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NursingPlatform.Model", "NursingPlatform.Model\NursingPlatform.Model.csproj", "{1521A10B-EA42-46FB-9F6C-DDF843921383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NursingPlatform.Mapper", "NursingPlatform.Mapper\NursingPlatform.Mapper.csproj", "{262BFC74-5302-4802-A3C5-55B0391497A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NursingPlatform.Utility", "NursingPlatform.Utility\NursingPlatform.Utility.csproj", "{AEA034B2-23FB-4165-89EB-126E65B84819}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NursingPlatform", "NursingPlatform\NursingPlatform.csproj", "{2590808A-9274-499F-ADD2-66136DF6B9B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NursingPlatform.SecurityUtility", "NursingPlatform.SecurityUtility\NursingPlatform.SecurityUtility.csproj", "{26AA5F1F-62E2-4D49-BCCF-39866A33FFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NursingPlatform.LogUtility", "NursingPlatform.LogUtility\NursingPlatform.LogUtility.csproj", "{90484028-A8C7-4AD8-8C77-A93B3DE5499A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61B4B777-F05C-4079-9B78-33F50A727A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B4B777-F05C-4079-9B78-33F50A727A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B4B777-F05C-4079-9B78-33F50A727A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B4B777-F05C-4079-9B78-33F50A727A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511CEBC5-A1A9-4520-917C-BEA93CA2B71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511CEBC5-A1A9-4520-917C-BEA93CA2B71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511CEBC5-A1A9-4520-917C-BEA93CA2B71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511CEBC5-A1A9-4520-917C-BEA93CA2B71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1521A10B-EA42-46FB-9F6C-DDF843921383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1521A10B-EA42-46FB-9F6C-DDF843921383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1521A10B-EA42-46FB-9F6C-DDF843921383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1521A10B-EA42-46FB-9F6C-DDF843921383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262BFC74-5302-4802-A3C5-55B0391497A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262BFC74-5302-4802-A3C5-55B0391497A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262BFC74-5302-4802-A3C5-55B0391497A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262BFC74-5302-4802-A3C5-55B0391497A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA034B2-23FB-4165-89EB-126E65B84819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA034B2-23FB-4165-89EB-126E65B84819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA034B2-23FB-4165-89EB-126E65B84819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA034B2-23FB-4165-89EB-126E65B84819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2590808A-9274-499F-ADD2-66136DF6B9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2590808A-9274-499F-ADD2-66136DF6B9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2590808A-9274-499F-ADD2-66136DF6B9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2590808A-9274-499F-ADD2-66136DF6B9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AA5F1F-62E2-4D49-BCCF-39866A33FFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AA5F1F-62E2-4D49-BCCF-39866A33FFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AA5F1F-62E2-4D49-BCCF-39866A33FFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AA5F1F-62E2-4D49-BCCF-39866A33FFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90484028-A8C7-4AD8-8C77-A93B3DE5499A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90484028-A8C7-4AD8-8C77-A93B3DE5499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90484028-A8C7-4AD8-8C77-A93B3DE5499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90484028-A8C7-4AD8-8C77-A93B3DE5499A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61B4B777-F05C-4079-9B78-33F50A727A9B} = {9C698FFB-DADA-49EA-BBCA-DC3E908A788C}
+		{511CEBC5-A1A9-4520-917C-BEA93CA2B71C} = {44E033F7-EB93-463F-B37F-7C208E3CCE76}
+		{1521A10B-EA42-46FB-9F6C-DDF843921383} = {44E033F7-EB93-463F-B37F-7C208E3CCE76}
+		{262BFC74-5302-4802-A3C5-55B0391497A8} = {44E033F7-EB93-463F-B37F-7C208E3CCE76}
+		{AEA034B2-23FB-4165-89EB-126E65B84819} = {A6FDC149-DC43-42F6-9127-AE3E026DECEA}
+		{2590808A-9274-499F-ADD2-66136DF6B9B1} = {1C38B20C-0093-484A-A1DC-D87CE3C71F9D}
+		{26AA5F1F-62E2-4D49-BCCF-39866A33FFE3} = {A6FDC149-DC43-42F6-9127-AE3E026DECEA}
+		{90484028-A8C7-4AD8-8C77-A93B3DE5499A} = {A6FDC149-DC43-42F6-9127-AE3E026DECEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2501DB3E-343B-42A7-B50E-D5D6B97F7F8D}
+	EndGlobalSection
+EndGlobal
